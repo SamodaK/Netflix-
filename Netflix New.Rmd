@@ -1,0 +1,60 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Load the neccesary libraries
+```{r}
+library(ggplot2)
+```
+
+# Load the neccesary datasets
+```{r}
+data <- read.csv("~/netflix_titles.csv")
+data
+```
+# Inspect the first 6 rows
+```{r}
+head(data,6)
+```
+
+#Inspect the structure of the dataset
+```{r}
+str(data)
+```
+# Summary of the dataset
+```{r}
+summary(data)
+```
+# Check for missing values
+```{r}
+sum(is.na(data))
+```
+# Remove the missing values
+```{r}
+data=na.omit(data)
+data
+```
+#Remove the duplicated rows
+```{r}
+data<- data[!duplicated(data),]
+data
+```
+#Exploring and summarizing different types of data # Categorical data #Frequency table for categorical variables
+
+```{r}
+table(data$title)
+```
+```{r}
+table(data$director)
+```
+#Numerical Data Analysis
+#Summarize mumerical variable such as “Release year” and “Duration”
+#Summary statistics for numerical variables
+```{r}
+summary(data$release_year)
+summary(data$duration)
+```
+
+
+

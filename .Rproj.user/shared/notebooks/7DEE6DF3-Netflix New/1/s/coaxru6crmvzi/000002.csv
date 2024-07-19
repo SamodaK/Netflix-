@@ -1,0 +1,12 @@
+"0","```r
+summary(data$release_year)
+```"
+"1","   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+   1925    2013    2017    2014    2019    2021 
+"
+"0","```r
+summary(data$duration)
+```"
+"1","   Length     Class      Mode 
+     8807 character character 
+"

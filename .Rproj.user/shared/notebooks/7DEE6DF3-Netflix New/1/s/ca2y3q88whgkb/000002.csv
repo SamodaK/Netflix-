@@ -1,0 +1,25 @@
+"0","```r
+summary(data)
+```"
+"1","   show_id              type              title             director        
+ Length:8807        Length:8807        Length:8807        Length:8807       
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+     cast             country           date_added         release_year 
+ Length:8807        Length:8807        Length:8807        Min.   :1925  
+ Class :character   Class :character   Class :character   1st Qu.:2013  
+ Mode  :character   Mode  :character   Mode  :character   Median :2017  
+                                                          Mean   :2014  
+                                                          3rd Qu.:2019  
+                                                          Max.   :2021  
+    rating            duration          listed_in         description       
+ Length:8807        Length:8807        Length:8807        Length:8807       
+ Class :character   Class :character   Class :character   Class :character  
+ Mode  :character   Mode  :character   Mode  :character   Mode  :character  
+                                                                            
+                                                                            
+                                                                            
+"

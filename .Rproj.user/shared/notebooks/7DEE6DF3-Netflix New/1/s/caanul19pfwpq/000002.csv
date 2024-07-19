@@ -1,0 +1,4 @@
+"0","```r
+data=na.omit(data)
+data
+```"
